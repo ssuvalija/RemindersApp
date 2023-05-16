@@ -8,9 +8,10 @@
 import Foundation
 import Combine
 
-class ReminderRepositoryImpl: ReminderRepository {
+class ReminderRepositoryImpl: ReminderRepository {    
+    
     let dataSource: ReminderDataSource
-    var notificationsPublisher: PassthroughSubject<Bool, Never> {
+    var notificationsPublisher: PassthroughSubject<Bool, Never>? {
         return dataSource.notificationsPublisher
     }
     
@@ -30,9 +31,53 @@ class ReminderRepositoryImpl: ReminderRepository {
         }
     }
     
+    func getRemindersForToday() async -> Result<[ReminderData], DataSourceError> {
+        do {
+            let reminders = try await dataSource.getRemindersForToday()
+            return .success(reminders.map { reminder in
+                ReminderData(reminder: reminder)
+            })
+        } catch {
+            return .failure(.FetchError)
+        }
+    }
+    
+    func getCompletedReminders() async -> Result<[ReminderData], DataSourceError> {
+        do {
+            let reminders = try await dataSource.getCompleted()
+            return .success(reminders.map { reminder in
+                ReminderData(reminder: reminder)
+            })
+        } catch {
+            return .failure(.FetchError)
+        }
+    }
+    
+    func getScheduledReminders() async -> Result<[ReminderData], DataSourceError> {
+        do {
+            let reminders = try await dataSource.getScheduled()
+            return .success(reminders.map { reminder in
+                ReminderData(reminder: reminder)
+            })
+        } catch {
+            return .failure(.FetchError)
+        }
+    }
+    
     func getRemindersByListId(_ id: UUID) async -> Result<[ReminderData], DataSourceError> {
         do {
             let reminders = try await dataSource.getByListId(id)
+            return .success(reminders.map { reminder in
+                ReminderData(reminder: reminder)
+            })
+        } catch {
+            return .failure(.FetchError)
+        }
+    }
+    
+    func getBySearchTerm(_ searchTerm: String) async -> Result<[ReminderData], DataSourceError> {
+        do {
+            let reminders = try await dataSource.getBySearchTerm(searchTerm)
             return .success(reminders.map { reminder in
                 ReminderData(reminder: reminder)
             })

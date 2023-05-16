@@ -11,10 +11,12 @@ import Factory
 extension Container {    
     var remindersDataSource: Factory<ReminderDataSource> {
         Factory(self) { ReminderDataSourceImpl() }
+            .scope(.singleton)
     }
     
     var remindersRepo: Factory<ReminderRepository> {
         Factory(self) { ReminderRepositoryImpl(dataSource: self.remindersDataSource()) }
+            .scope(.singleton)
     }
     
     var addReminderViewModel: Factory<AddReminderViewModel> {

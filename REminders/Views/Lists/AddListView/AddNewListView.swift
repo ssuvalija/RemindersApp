@@ -8,8 +8,8 @@
 import SwiftUI
 
 struct AddNewListView: View {
-    @Environment(\.dismiss) private var dismiss
-    @ObservedObject var viewModel: AddListViewModelImpl
+    @StateObject var viewModel: AddListViewModelImpl = AddListViewModelImpl()
+    @EnvironmentObject var coordindator: Coordinator<RemindersRouter>
     
     var body: some View {
         let showError = Binding<Bool>(
@@ -17,6 +17,25 @@ struct AddNewListView: View {
             set: { _ in self.viewModel.error = nil }
         )
         VStack {
+            HeaderView(
+                rightButtonTitle: "Done",
+                rightButtonAction: {
+                    Task {
+                        let result = await viewModel.addList()
+                        
+                        if result {
+                            coordindator.dismiss()
+                        }
+                    }
+                    
+                },
+                title: "New List", leftButtonTitle: "Close",
+                leftButtonAction: {
+                    coordindator.dismiss() },
+                disabledRightButton: {
+                    return !viewModel.isFormValid
+                }
+            )
             VStack {
                 Image(systemName: "line.3.horizontal.circle.fill")
                     .foregroundColor(viewModel.color)
@@ -37,39 +56,13 @@ struct AddNewListView: View {
             Alert(title: Text("Error while creating new list"))
         })
         .frame(maxWidth: .infinity, maxHeight: .infinity)
-        .toolbar {
-            ToolbarItem(placement: .principal, content: {
-                Text("New List")
-                    .font(.headline)
-            })
-            
-            ToolbarItem(placement: .navigationBarLeading, content: {
-                Button("Close") {
-                    dismiss()
-                }
-            })
-            
-            ToolbarItem(placement: .navigationBarTrailing, content: {
-                Button("Done") {
-                    Task {
-                        let result = await viewModel.addList()
-                        
-                        if result {
-                            dismiss()
-                        }
-                    }
-                }.disabled(!viewModel.isFormValid)
-            })
-
-        }
-    
     }
 }
 
 struct AddNewListView_Previews: PreviewProvider {
     static var previews: some View {
         NavigationView {
-            AddNewListView(viewModel: AddListViewModelImpl())
+            AddNewListView()
         }
     }
 }

@@ -14,9 +14,10 @@ class MyListDataSourceImpl: MyListDataSource, NotifiableDataSource {
     var container: NSPersistentContainer = CoreDataProvider.shared.persistentContainer
     var context: NSManagedObjectContext = CoreDataProvider.shared.persistentContainer.viewContext
     var cancelables = Set<AnyCancellable>()
-    var notificationsPublisher = PassthroughSubject<Bool, Never>()
+    var notificationsPublisher: PassthroughSubject<Bool, Never>?
     
     init() {
+        notificationsPublisher = PassthroughSubject<Bool, Never>()
         listenForUpdateNotifications()
     }
     
@@ -81,7 +82,7 @@ class MyListDataSourceImpl: MyListDataSource, NotifiableDataSource {
     
     func listenForUpdateNotifications() {
         CoreDataProvider.shared.notificationsPublisher.sink { [weak self] notification in
-            self?.shouldRefreshListener(notification: notification)
+            self?.shouldRefreshListener(notification: notification, type: MyListEntity.self)
         }.store(in: &cancelables)
     }
     

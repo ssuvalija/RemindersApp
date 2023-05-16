@@ -12,7 +12,7 @@ struct MyListRepositoryImpl: MyListRepository {
     
     let dataSource: MyListDataSource
     
-    var notificationsPublisher: PassthroughSubject<Bool, Never> {
+    var notificationsPublisher: PassthroughSubject<Bool, Never>? {
         return dataSource.notificationsPublisher
     }
     

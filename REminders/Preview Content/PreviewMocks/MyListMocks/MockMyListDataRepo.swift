@@ -20,7 +20,7 @@ enum MockMyListData {
 }
 
 struct MockMyListDataRepo: MyListRepository {
-    var notificationsPublisher = PassthroughSubject<Bool, Never>()
+    var notificationsPublisher: PassthroughSubject<Bool, Never>?
     
     func getLists() async -> Result<[MyListData], DataSourceError> {
         return .success(
@@ -45,8 +45,8 @@ struct MockMyListDataRepo: MyListRepository {
 }
 
 struct MockMyListEmptyDataRepo: MyListRepository {
-    var notificationsPublisher = PassthroughSubject<Bool, Never>()
-    
+    var notificationsPublisher: PassthroughSubject<Bool, Never>?
+        
     func getLists() async -> Result<[MyListData], DataSourceError> {
         return .success([])
     }
@@ -69,7 +69,7 @@ struct MockMyListEmptyDataRepo: MyListRepository {
 }
 
 struct MockMyListErrorDataRepo: MyListRepository {
-    var notificationsPublisher = PassthroughSubject<Bool, Never>()
+    var notificationsPublisher: PassthroughSubject<Bool, Never>?
     
     func getLists() async -> Result<[MyListData], DataSourceError> {
         return .failure(.FetchError)

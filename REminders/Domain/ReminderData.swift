@@ -16,6 +16,9 @@ struct ReminderData: Identifiable {
     var reminderTime: Date?
     var list: MyListData?
     
+    var hasDate: Bool = false
+    var hasTime: Bool = false
+    
     init(reminder: ReminderEntity) {
         title = reminder.title ?? ""
         isCompleted = reminder.isCompleted
@@ -26,6 +29,9 @@ struct ReminderData: Identifiable {
             list = MyListData(myList: myList)
         }
         id = reminder.id ?? UUID()
+        
+        hasDate = reminderDate != nil
+        hasTime = reminderTime != nil
     }
     
     init(id: UUID, title: String, notes: String, list: MyListData) {

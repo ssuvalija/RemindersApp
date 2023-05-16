@@ -30,8 +30,8 @@
             filePath = "REminders/DataSource/MyListDataSource/MyListDataSourceImpl.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "50"
-            endingLineNumber = "50"
+            startingLineNumber = "51"
+            endingLineNumber = "51"
             landmarkName = "create(list:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -167,7 +167,7 @@
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
             uuid = "CF05A171-4873-4FF9-9DCB-7216635642F3"
-            shouldBeEnabled = "Yes"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "REminders/Providers/CoreDataProvider.swift"
@@ -434,7 +434,7 @@
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
             uuid = "C68CB7E5-81C9-4A66-A804-0FFF11F569E5"
-            shouldBeEnabled = "Yes"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "REminders/Views/AddReminderView/AddReminderView.swift"
@@ -482,7 +482,7 @@
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
             uuid = "335084FB-40EE-474C-B50B-E8FB5A1CBF8B"
-            shouldBeEnabled = "Yes"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "REminders/Views/AddReminderView/AddReminderView.swift"
@@ -504,14 +504,14 @@
             filePath = "REminders/DataSource/ReminderDataSource/ReminderRepositoryImpl.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "67"
-            endingLineNumber = "67"
+            startingLineNumber = "112"
+            endingLineNumber = "112"
             landmarkName = "createReminder(_:)"
             landmarkType = "7">
             <Locations>
                <Location
-                  uuid = "D17705ED-672A-40EC-BEC9-392ECB09C252 - 6ea09639d36e4a55"
-                  shouldBeEnabled = "Yes"
+                  uuid = "D17705ED-672A-40EC-BEC9-392ECB09C252 - 6ea09639d36e51ea"
+                  shouldBeEnabled = "No"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
                   symbolName = "(1) suspend resume partial function for REminders.ReminderRepositoryImpl.createReminder(REminders.ReminderData) async -&gt; Swift.Result&lt;Swift.Bool, REminders.DataSourceError&gt;"
@@ -520,13 +520,13 @@
                   urlString = "file:///Users/selma.suvalija/Documents/Projects/Learning/REminders/REminders/DataSource/ReminderDataSource/ReminderRepositoryImpl.swift"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "63"
-                  endingLineNumber = "63"
-                  offsetFromSymbolStart = "76">
+                  startingLineNumber = "112"
+                  endingLineNumber = "112"
+                  offsetFromSymbolStart = "64">
                </Location>
                <Location
-                  uuid = "D17705ED-672A-40EC-BEC9-392ECB09C252 - 84f55b2ba81a967c"
-                  shouldBeEnabled = "Yes"
+                  uuid = "D17705ED-672A-40EC-BEC9-392ECB09C252 - 84f55b2ba81a8dc3"
+                  shouldBeEnabled = "No"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
                   symbolName = "(2) await resume partial function for REminders.ReminderRepositoryImpl.createReminder(REminders.ReminderData) async -&gt; Swift.Result&lt;Swift.Bool, REminders.DataSourceError&gt;"
@@ -535,13 +535,13 @@
                   urlString = "file:///Users/selma.suvalija/Documents/Projects/Learning/REminders/REminders/DataSource/ReminderDataSource/ReminderRepositoryImpl.swift"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "63"
-                  endingLineNumber = "63"
+                  startingLineNumber = "112"
+                  endingLineNumber = "112"
                   offsetFromSymbolStart = "40">
                </Location>
                <Location
-                  uuid = "D17705ED-672A-40EC-BEC9-392ECB09C252 - 7ad05be08a480456"
-                  shouldBeEnabled = "Yes"
+                  uuid = "D17705ED-672A-40EC-BEC9-392ECB09C252 - 7ad05be08a481fe9"
+                  shouldBeEnabled = "No"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
                   symbolName = "(4) suspend resume partial function for REminders.ReminderRepositoryImpl.createReminder(REminders.ReminderData) async -&gt; Swift.Result&lt;Swift.Bool, REminders.DataSourceError&gt;"
@@ -550,8 +550,8 @@
                   urlString = "file:///Users/selma.suvalija/Documents/Projects/Learning/REminders/REminders/DataSource/ReminderDataSource/ReminderRepositoryImpl.swift"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "63"
-                  endingLineNumber = "63"
+                  startingLineNumber = "112"
+                  endingLineNumber = "112"
                   offsetFromSymbolStart = "44">
                </Location>
             </Locations>
@@ -567,8 +567,8 @@
             filePath = "REminders/DataSource/ReminderDataSource/ReminderDataSourceImpl.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "60"
-            endingLineNumber = "60"
+            startingLineNumber = "88"
+            endingLineNumber = "88"
             landmarkName = "create(reminder:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -592,22 +592,6 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "185B5487-E674-4FA7-BA21-90CD1225AA1D"
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "REminders/Views/Reminders/RemindersListView/RemindersListViewModel.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "38"
-            endingLineNumber = "38"
-            landmarkName = "load()"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
             uuid = "66D74DDF-3ED4-4D1A-B26C-D0FB194BE6AA"
             shouldBeEnabled = "No"
             ignoreCount = "0"
@@ -615,14 +599,14 @@
             filePath = "REminders/DataSource/ReminderDataSource/ReminderRepositoryImpl.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "35"
-            endingLineNumber = "35"
+            startingLineNumber = "69"
+            endingLineNumber = "69"
             landmarkName = "getRemindersByListId(_:)"
             landmarkType = "7">
             <Locations>
                <Location
-                  uuid = "66D74DDF-3ED4-4D1A-B26C-D0FB194BE6AA - 849a5fe5fc26a45d"
-                  shouldBeEnabled = "Yes"
+                  uuid = "66D74DDF-3ED4-4D1A-B26C-D0FB194BE6AA - 849a5fe5fc26a137"
+                  shouldBeEnabled = "No"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
                   symbolName = "(1) suspend resume partial function for REminders.ReminderRepositoryImpl.getRemindersByListId(Foundation.UUID) async -&gt; Swift.Result&lt;Swift.Array&lt;REminders.ReminderData&gt;, REminders.DataSourceError&gt;"
@@ -631,13 +615,13 @@
                   urlString = "file:///Users/selma.suvalija/Documents/Projects/Learning/REminders/REminders/DataSource/ReminderDataSource/ReminderRepositoryImpl.swift"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "31"
-                  endingLineNumber = "31"
-                  offsetFromSymbolStart = "76">
+                  startingLineNumber = "69"
+                  endingLineNumber = "69"
+                  offsetFromSymbolStart = "64">
                </Location>
                <Location
-                  uuid = "66D74DDF-3ED4-4D1A-B26C-D0FB194BE6AA - 5debe36143a014f9"
-                  shouldBeEnabled = "Yes"
+                  uuid = "66D74DDF-3ED4-4D1A-B26C-D0FB194BE6AA - 5debe36143a01193"
+                  shouldBeEnabled = "No"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
                   symbolName = "(2) await resume partial function for REminders.ReminderRepositoryImpl.getRemindersByListId(Foundation.UUID) async -&gt; Swift.Result&lt;Swift.Array&lt;REminders.ReminderData&gt;, REminders.DataSourceError&gt;"
@@ -646,13 +630,13 @@
                   urlString = "file:///Users/selma.suvalija/Documents/Projects/Learning/REminders/REminders/DataSource/ReminderDataSource/ReminderRepositoryImpl.swift"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "31"
-                  endingLineNumber = "31"
+                  startingLineNumber = "69"
+                  endingLineNumber = "69"
                   offsetFromSymbolStart = "44">
                </Location>
                <Location
-                  uuid = "66D74DDF-3ED4-4D1A-B26C-D0FB194BE6AA - 81d7726f7902ee0e"
-                  shouldBeEnabled = "Yes"
+                  uuid = "66D74DDF-3ED4-4D1A-B26C-D0FB194BE6AA - 81d7726f7902eb64"
+                  shouldBeEnabled = "No"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
                   symbolName = "(4) suspend resume partial function for REminders.ReminderRepositoryImpl.getRemindersByListId(Foundation.UUID) async -&gt; Swift.Result&lt;Swift.Array&lt;REminders.ReminderData&gt;, REminders.DataSourceError&gt;"
@@ -661,73 +645,9 @@
                   urlString = "file:///Users/selma.suvalija/Documents/Projects/Learning/REminders/REminders/DataSource/ReminderDataSource/ReminderRepositoryImpl.swift"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "31"
-                  endingLineNumber = "31"
+                  startingLineNumber = "69"
+                  endingLineNumber = "69"
                   offsetFromSymbolStart = "44">
-               </Location>
-            </Locations>
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "BFA6D3B5-4ED9-4CF0-9ACC-1C485CAC3252"
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "REminders/Views/Reminders/RemindersListView/ReminderListView.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "63"
-            endingLineNumber = "63"
-            landmarkName = "body"
-            landmarkType = "24">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "4BB68ABE-65D2-4D65-AB17-AD1AF749EA9C"
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "REminders/Views/Reminders/RemindersListView/ReminderListView.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "72"
-            endingLineNumber = "72"
-            landmarkName = "body"
-            landmarkType = "24">
-            <Locations>
-               <Location
-                  uuid = "4BB68ABE-65D2-4D65-AB17-AD1AF749EA9C - 80972e9f6a68da01"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "closure #1 () -&gt; SwiftUI._ConditionalContent&lt;SwiftUI._ConditionalContent&lt;SwiftUI.ProgressView&lt;SwiftUI.EmptyView, SwiftUI.EmptyView&gt;, REminders.FancyToastView&gt;, SwiftUI._ConditionalContent&lt;SwiftUI.Text, &lt;&lt;opaque return type of SwiftUI.View.sheet&lt;&#x3c4;_0_0 where &#x3c4;_1_0: SwiftUI.View&gt;(isPresented: SwiftUI.Binding&lt;Swift.Bool&gt;, onDismiss: Swift.Optional&lt;() -&gt; ()&gt;, content: () -&gt; &#x3c4;_1_0) -&gt; some&gt;&gt;.0&gt;&gt; in REminders.ReminderListView.body.getter : some"
-                  moduleName = "REminders"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/selma.suvalija/Documents/Projects/Learning/REminders/REminders/Views/Reminders/RemindersListView/ReminderListView.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "56"
-                  endingLineNumber = "56"
-                  offsetFromSymbolStart = "2528">
-               </Location>
-               <Location
-                  uuid = "4BB68ABE-65D2-4D65-AB17-AD1AF749EA9C - 23ec185a4cec6183"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "closure #2 () -&gt; SwiftUI.List&lt;Swift.Never, &lt;&lt;opaque return type of SwiftUI.DynamicViewContent.onDelete(perform: Swift.Optional&lt;(Foundation.IndexSet) -&gt; ()&gt;) -&gt; some&gt;&gt;.0&gt; in closure #1 () -&gt; SwiftUI._ConditionalContent&lt;SwiftUI._ConditionalContent&lt;SwiftUI.ProgressView&lt;SwiftUI.EmptyView, SwiftUI.EmptyView&gt;, REminders.FancyToastView&gt;, SwiftUI._ConditionalContent&lt;SwiftUI.Text, &lt;&lt;opaque return type of SwiftUI.View.sheet&lt;&#x3c4;_0_0 where &#x3c4;_1_0: SwiftUI.View&gt;(isPresented: SwiftUI.Binding&lt;Swift.Bool&gt;, onDismiss: Swift.Optional&lt;() -&gt; ()&gt;, content: () -&gt; &#x3c4;_1_0) -&gt; some&gt;&gt;.0&gt;&gt; in REminders.ReminderListView.body.getter : some"
-                  moduleName = "REminders"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/selma.suvalija/Documents/Projects/Learning/REminders/REminders/Views/Reminders/RemindersListView/ReminderListView.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "57"
-                  endingLineNumber = "57"
-                  offsetFromSymbolStart = "256">
                </Location>
             </Locations>
          </BreakpointContent>
@@ -749,7 +669,7 @@
             <Locations>
                <Location
                   uuid = "56B04FE0-6F16-412E-A556-D320EBAC6632 - 3b550647a7db90d7"
-                  shouldBeEnabled = "Yes"
+                  shouldBeEnabled = "No"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
                   symbolName = "(1) suspend resume partial function for REminders.MyListViewModel.getLists() async -&gt; ()"
@@ -760,7 +680,7 @@
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "30"
                   endingLineNumber = "30"
-                  offsetFromSymbolStart = "72">
+                  offsetFromSymbolStart = "88">
                </Location>
                <Location
                   uuid = "56B04FE0-6F16-412E-A556-D320EBAC6632 - f86b201286931c24"
@@ -805,8 +725,8 @@
             filePath = "REminders/Views/Lists/MyListView/MyListView.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "17"
-            endingLineNumber = "17"
+            startingLineNumber = "18"
+            endingLineNumber = "18"
             landmarkName = "body"
             landmarkType = "24">
          </BreakpointContent>
@@ -827,8 +747,8 @@
             landmarkType = "24">
             <Locations>
                <Location
-                  uuid = "A0ED9A56-1989-4B22-B5A0-C996DF82A162 - 4ec2e950ae2dec35"
-                  shouldBeEnabled = "Yes"
+                  uuid = "A0ED9A56-1989-4B22-B5A0-C996DF82A162 - 4ec2e950ae2decb1"
+                  shouldBeEnabled = "No"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
                   symbolName = "closure #1 () -&gt; SwiftUI._ConditionalContent&lt;SwiftUI._ConditionalContent&lt;SwiftUI.ProgressView&lt;SwiftUI.EmptyView, SwiftUI.EmptyView&gt;, REminders.FancyToastView&gt;, SwiftUI._ConditionalContent&lt;SwiftUI.Text, &lt;&lt;opaque return type of SwiftUI.View.navigationDestination&lt;&#x3c4;_0_0, &#x3c4;_0_1 where &#x3c4;_1_0: Swift.Hashable, &#x3c4;_1_1: SwiftUI.View&gt;(for: &#x3c4;_1_0.Type, destination: (&#x3c4;_1_0) -&gt; &#x3c4;_1_1) -&gt; some&gt;&gt;.0&gt;&gt; in REminders.MyListView.body.getter : some"
@@ -837,13 +757,13 @@
                   urlString = "file:///Users/selma.suvalija/Documents/Projects/Learning/REminders/REminders/Views/Lists/MyListView/MyListView.swift"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "30"
-                  endingLineNumber = "30"
-                  offsetFromSymbolStart = "2804">
+                  startingLineNumber = "26"
+                  endingLineNumber = "26"
+                  offsetFromSymbolStart = "2784">
                </Location>
                <Location
-                  uuid = "A0ED9A56-1989-4B22-B5A0-C996DF82A162 - 4c99842bc6e7bcdb"
-                  shouldBeEnabled = "Yes"
+                  uuid = "A0ED9A56-1989-4B22-B5A0-C996DF82A162 - 4c99842bc6e7bc57"
+                  shouldBeEnabled = "No"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
                   symbolName = "closure #2 (REminders.MyListData) -&gt; &lt;&lt;opaque return type of SwiftUI.View.listRowBackground&lt;&#x3c4;_0_0 where &#x3c4;_1_0: SwiftUI.View&gt;(Swift.Optional&lt;&#x3c4;_1_0&gt;) -&gt; some&gt;&gt;.0 in closure #1 () -&gt; SwiftUI._ConditionalContent&lt;SwiftUI._ConditionalContent&lt;SwiftUI.ProgressView&lt;SwiftUI.EmptyView, SwiftUI.EmptyView&gt;, REminders.FancyToastView&gt;, SwiftUI._ConditionalContent&lt;SwiftUI.Text, &lt;&lt;opaque return type of SwiftUI.View.navigationDestination&lt;&#x3c4;_0_0, &#x3c4;_0_1 where &#x3c4;_1_0: Swift.Hashable, &#x3c4;_1_1: SwiftUI.View&gt;(for: &#x3c4;_1_0.Type, destination: (&#x3c4;_1_0) -&gt; &#x3c4;_1_1) -&gt; some&gt;&gt;.0&gt;&gt; in REminders.MyListView.body.getter : some"
@@ -852,27 +772,11 @@
                   urlString = "file:///Users/selma.suvalija/Documents/Projects/Learning/REminders/REminders/Views/Lists/MyListView/MyListView.swift"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "31"
-                  endingLineNumber = "31"
+                  startingLineNumber = "27"
+                  endingLineNumber = "27"
                   offsetFromSymbolStart = "540">
                </Location>
             </Locations>
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "1B353996-9C1C-41AB-B7AB-6C928238A81B"
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "REminders/Views/Reminders/RemindersListView/ReminderListView.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "59"
-            endingLineNumber = "59"
-            landmarkName = "body"
-            landmarkType = "24">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -926,69 +830,6 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "27876AA7-17DF-44DB-985D-32CB010B7BCF"
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "REminders/Views/Reminders/RemindersListView/ReminderListView.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "95"
-            endingLineNumber = "95"
-            landmarkName = "body"
-            landmarkType = "24">
-            <Locations>
-               <Location
-                  uuid = "27876AA7-17DF-44DB-985D-32CB010B7BCF - 2d17195337583a0e"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "(1) suspend resume partial function for closure #1 @Sendable () async -&gt; () in closure #2 () -&gt; () in REminders.ReminderListView.body.getter : some"
-                  moduleName = "REminders"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/selma.suvalija/Documents/Projects/Learning/REminders/REminders/Views/Reminders/RemindersListView/ReminderListView.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "86"
-                  endingLineNumber = "86"
-                  offsetFromSymbolStart = "60">
-               </Location>
-               <Location
-                  uuid = "27876AA7-17DF-44DB-985D-32CB010B7BCF - be20d16b1f9fbbf7"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "(2) await resume partial function for closure #1 @Sendable () async -&gt; () in closure #2 () -&gt; () in REminders.ReminderListView.body.getter : some"
-                  moduleName = "REminders"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/selma.suvalija/Documents/Projects/Learning/REminders/REminders/Views/Reminders/RemindersListView/ReminderListView.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "86"
-                  endingLineNumber = "86"
-                  offsetFromSymbolStart = "40">
-               </Location>
-               <Location
-                  uuid = "27876AA7-17DF-44DB-985D-32CB010B7BCF - 3473d43c6913fe0c"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "(3) suspend resume partial function for closure #1 @Sendable () async -&gt; () in closure #2 () -&gt; () in REminders.ReminderListView.body.getter : some"
-                  moduleName = "REminders"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/selma.suvalija/Documents/Projects/Learning/REminders/REminders/Views/Reminders/RemindersListView/ReminderListView.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "86"
-                  endingLineNumber = "86"
-                  offsetFromSymbolStart = "52">
-               </Location>
-            </Locations>
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
             uuid = "97AF0E33-3740-4954-9CE2-557B7544B86F"
             shouldBeEnabled = "No"
             ignoreCount = "0"
@@ -996,10 +837,42 @@
             filePath = "REminders/Views/Reminders/RemindersListView/ReminderListView.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "39"
-            endingLineNumber = "39"
+            startingLineNumber = "45"
+            endingLineNumber = "45"
             landmarkName = "deleteReminder(_:)"
             landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "97AF0E33-3740-4954-9CE2-557B7544B86F - 16f1feecd7098b1d"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "REminders.ReminderListView.deleteReminder(Foundation.IndexSet) -&gt; ()"
+                  moduleName = "REminders"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/selma.suvalija/Documents/Projects/Learning/REminders/REminders/Views/Reminders/RemindersListView/ReminderListView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "44"
+                  endingLineNumber = "44"
+                  offsetFromSymbolStart = "144">
+               </Location>
+               <Location
+                  uuid = "97AF0E33-3740-4954-9CE2-557B7544B86F - 1522734373c4ef0e"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Int) -&gt; () in REminders.ReminderListView.deleteReminder(Foundation.IndexSet) -&gt; ()"
+                  moduleName = "REminders"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/selma.suvalija/Documents/Projects/Learning/REminders/REminders/Views/Reminders/RemindersListView/ReminderListView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "45"
+                  endingLineNumber = "45"
+                  offsetFromSymbolStart = "268">
+               </Location>
+            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -1012,10 +885,10 @@
             filePath = "REminders/Views/Reminders/RemindersListView/ReminderListView.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "54"
-            endingLineNumber = "54"
-            landmarkName = "ReminderListView"
-            landmarkType = "14">
+            startingLineNumber = "51"
+            endingLineNumber = "51"
+            landmarkName = "deleteReminder(_:)"
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -1028,8 +901,8 @@
             filePath = "REminders/Views/Reminders/RemindersListView/ReminderListView.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "40"
-            endingLineNumber = "40"
+            startingLineNumber = "46"
+            endingLineNumber = "46"
             landmarkName = "deleteReminder(_:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -1037,17 +910,1056 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "752D97F5-6750-4C0D-90D6-5A9DAEC3EEAB"
+            uuid = "C4BA82D1-B37B-41FB-8A63-FC569BAE8808"
             shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "REminders/Views/Reminders/RemindersListView/ReminderListView.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "43"
-            endingLineNumber = "43"
-            landmarkName = "deleteReminder(_:)"
+            startingLineNumber = "33"
+            endingLineNumber = "33"
+            landmarkName = "reminderCheckedChanged(reminder:checked:)"
             landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "C4BA82D1-B37B-41FB-8A63-FC569BAE8808 - 7c813b00c89244c1"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "REminders.ReminderListView.reminderCheckedChanged(reminder: REminders.ReminderData, checked: Swift.Bool) -&gt; ()"
+                  moduleName = "REminders"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/selma.suvalija/Documents/Projects/Learning/REminders/REminders/Views/Reminders/RemindersListView/ReminderListView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "32"
+                  endingLineNumber = "32"
+                  offsetFromSymbolStart = "224">
+               </Location>
+               <Location
+                  uuid = "C4BA82D1-B37B-41FB-8A63-FC569BAE8808 - 4ee44d47d2b01047"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Sendable () async -&gt; () in REminders.ReminderListView.reminderCheckedChanged(reminder: REminders.ReminderData, checked: Swift.Bool) -&gt; ()"
+                  moduleName = "REminders"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/selma.suvalija/Documents/Projects/Learning/REminders/REminders/Views/Reminders/RemindersListView/ReminderListView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "32"
+                  endingLineNumber = "32"
+                  offsetFromSymbolStart = "168">
+               </Location>
+               <Location
+                  uuid = "C4BA82D1-B37B-41FB-8A63-FC569BAE8808 - fec8ed06294783fd"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(1) suspend resume partial function for closure #1 @Sendable () async -&gt; () in REminders.ReminderListView.reminderCheckedChanged(reminder: REminders.ReminderData, checked: Swift.Bool) -&gt; ()"
+                  moduleName = "REminders"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/selma.suvalija/Documents/Projects/Learning/REminders/REminders/Views/Reminders/RemindersListView/ReminderListView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "32"
+                  endingLineNumber = "32"
+                  offsetFromSymbolStart = "32">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "2F21881F-A4D4-416A-9C01-6C3372DE891E"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "REminders/Views/Reminders/RemindersListView/ReminderListView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "36"
+            endingLineNumber = "36"
+            landmarkName = "reminderCheckedChanged(reminder:checked:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "2F21881F-A4D4-416A-9C01-6C3372DE891E - fec8ed0629478362"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(1) suspend resume partial function for closure #1 @Sendable () async -&gt; () in REminders.ReminderListView.reminderCheckedChanged(reminder: REminders.ReminderData, checked: Swift.Bool) -&gt; ()"
+                  moduleName = "REminders"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/selma.suvalija/Documents/Projects/Learning/REminders/REminders/Views/Reminders/RemindersListView/ReminderListView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "35"
+                  endingLineNumber = "35"
+                  offsetFromSymbolStart = "84">
+               </Location>
+               <Location
+                  uuid = "2F21881F-A4D4-416A-9C01-6C3372DE891E - d4c09efdc7131ab9"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(2) await resume partial function for closure #1 @Sendable () async -&gt; () in REminders.ReminderListView.reminderCheckedChanged(reminder: REminders.ReminderData, checked: Swift.Bool) -&gt; ()"
+                  moduleName = "REminders"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/selma.suvalija/Documents/Projects/Learning/REminders/REminders/Views/Reminders/RemindersListView/ReminderListView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "35"
+                  endingLineNumber = "35"
+                  offsetFromSymbolStart = "40">
+               </Location>
+               <Location
+                  uuid = "2F21881F-A4D4-416A-9C01-6C3372DE891E - 8b7ed159c3694760"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(3) suspend resume partial function for closure #1 @Sendable () async -&gt; () in REminders.ReminderListView.reminderCheckedChanged(reminder: REminders.ReminderData, checked: Swift.Bool) -&gt; ()"
+                  moduleName = "REminders"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/selma.suvalija/Documents/Projects/Learning/REminders/REminders/Views/Reminders/RemindersListView/ReminderListView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "35"
+                  endingLineNumber = "35"
+                  offsetFromSymbolStart = "68">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "4D85D9CE-B2E2-4B56-996F-923910DC0AED"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "REminders/Views/Reminders/RemindersListView/RemindersListViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "98"
+            endingLineNumber = "98"
+            landmarkName = "updateReminder(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "DC9E7BA5-75ED-424F-AE6C-418343C65599"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "REminders/Views/Reminders/RemindersListView/RemindersListViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "97"
+            endingLineNumber = "97"
+            landmarkName = "updateReminder(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "788E988C-0F0A-433F-932B-AC9F45851BAC"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "REminders/Views/Reminders/RemindersListView/RemindersListViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "101"
+            endingLineNumber = "101"
+            landmarkName = "updateReminder(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "66B25FE4-52EB-41F3-BCB5-81C9B48C324C"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "REminders/DataSource/NotifiableDataSource.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "22"
+            endingLineNumber = "22"
+            landmarkName = "shouldRefreshListener(notification:type:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "08B09A9B-AACE-46E6-A315-8760299F303F"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "REminders/DataSource/NotifiableDataSource.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "33"
+            endingLineNumber = "33"
+            landmarkName = "checkForDataChanges(myType:list:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "08B09A9B-AACE-46E6-A315-8760299F303F - 34d9ceded23eafc4"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "REminders.NotifiableDataSource.checkForDataChanges&lt;&#x3c4;_0_0 where &#x3c4;_1_0: __C.NSManagedObject&gt;(myType: &#x3c4;_1_0.Type, list: Swift.Optional&lt;Swift.Set&lt;__C.NSManagedObject&gt;&gt;) -&gt; Swift.Bool"
+                  moduleName = "REminders"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/selma.suvalija/Documents/Projects/Learning/REminders/REminders/DataSource/NotifiableDataSource.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "33"
+                  endingLineNumber = "33"
+                  offsetFromSymbolStart = "84">
+               </Location>
+               <Location
+                  uuid = "08B09A9B-AACE-46E6-A315-8760299F303F - 5665e7e2a69d8f4f"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (__C.NSManagedObject) -&gt; Swift.Bool in REminders.NotifiableDataSource.checkForDataChanges&lt;&#x3c4;_0_0 where &#x3c4;_1_0: __C.NSManagedObject&gt;(myType: &#x3c4;_1_0.Type, list: Swift.Optional&lt;Swift.Set&lt;__C.NSManagedObject&gt;&gt;) -&gt; Swift.Bool"
+                  moduleName = "REminders"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/selma.suvalija/Documents/Projects/Learning/REminders/REminders/DataSource/NotifiableDataSource.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "33"
+                  endingLineNumber = "33"
+                  offsetFromSymbolStart = "44">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "95239770-A0BB-4D1C-9C98-1C75FDC35BE9"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "REminders/DataSource/NotifiableDataSource.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "26"
+            endingLineNumber = "26"
+            landmarkName = "shouldRefreshListener(notification:type:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "8ACA5C35-EDF5-4FF9-9F1F-ECB68670D0AF"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "REminders/DataSource/NotifiableDataSource.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "27"
+            endingLineNumber = "27"
+            landmarkName = "shouldRefreshListener(notification:type:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "73766767-247A-4C0B-8103-880E6B762BB2"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "REminders/Views/Reminders/ReminderDetailsView/ReminderDetailsView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "25"
+            endingLineNumber = "25"
+            landmarkName = "body"
+            landmarkType = "24">
+            <Locations>
+               <Location
+                  uuid = "73766767-247A-4C0B-8103-880E6B762BB2 - d2a0324a25c617c9"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "REminders.ReminderDetailsView.body.getter : some"
+                  moduleName = "REminders"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/selma.suvalija/Documents/Projects/Learning/REminders/REminders/Views/Reminders/ReminderDetailsView/ReminderDetailsView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "24"
+                  endingLineNumber = "24"
+                  offsetFromSymbolStart = "352">
+               </Location>
+               <Location
+                  uuid = "73766767-247A-4C0B-8103-880E6B762BB2 - f9139893beff0d7e"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; &lt;&lt;opaque return type of SwiftUI.View.toolbar&lt;&#x3c4;_0_0 where &#x3c4;_1_0: SwiftUI.ToolbarContent&gt;(content: () -&gt; &#x3c4;_1_0) -&gt; some&gt;&gt;.0 in REminders.ReminderDetailsView.body.getter : some"
+                  moduleName = "REminders"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/selma.suvalija/Documents/Projects/Learning/REminders/REminders/Views/Reminders/ReminderDetailsView/ReminderDetailsView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "25"
+                  endingLineNumber = "25"
+                  offsetFromSymbolStart = "468">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "7D5B817F-05B8-404A-A24A-2C80DE3341F9"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "REminders/Views/Reminders/RemindersListView/RemindersListViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "50"
+            endingLineNumber = "50"
+            landmarkName = "load()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "7D5B817F-05B8-404A-A24A-2C80DE3341F9 - 7cfc92cad9c946c3"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(1) suspend resume partial function for REminders.RemindersListViewModel.load() async -&gt; ()"
+                  moduleName = "REminders"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/selma.suvalija/Documents/Projects/Learning/REminders/REminders/Views/Reminders/RemindersListView/RemindersListViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "50"
+                  endingLineNumber = "50"
+                  offsetFromSymbolStart = "1200">
+               </Location>
+               <Location
+                  uuid = "7D5B817F-05B8-404A-A24A-2C80DE3341F9 - 3e6ce1aaeaa74daa"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(6) await resume partial function for REminders.RemindersListViewModel.load() async -&gt; ()"
+                  moduleName = "REminders"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/selma.suvalija/Documents/Projects/Learning/REminders/REminders/Views/Reminders/RemindersListView/RemindersListViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "50"
+                  endingLineNumber = "50"
+                  offsetFromSymbolStart = "44">
+               </Location>
+               <Location
+                  uuid = "7D5B817F-05B8-404A-A24A-2C80DE3341F9 - 9599648605ff50d9"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(7) suspend resume partial function for REminders.RemindersListViewModel.load() async -&gt; ()"
+                  moduleName = "REminders"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/selma.suvalija/Documents/Projects/Learning/REminders/REminders/Views/Reminders/RemindersListView/RemindersListViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "50"
+                  endingLineNumber = "50"
+                  offsetFromSymbolStart = "76">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "2E4FBC0C-4B16-4B16-B6A3-FB31D407D78E"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "REminders/Views/Reminders/RemindersListView/RemindersListViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "46"
+            endingLineNumber = "46"
+            landmarkName = "load()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "2E4FBC0C-4B16-4B16-B6A3-FB31D407D78E - 7cfc92cad9c9464f"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(1) suspend resume partial function for REminders.RemindersListViewModel.load() async -&gt; ()"
+                  moduleName = "REminders"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/selma.suvalija/Documents/Projects/Learning/REminders/REminders/Views/Reminders/RemindersListView/RemindersListViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "46"
+                  endingLineNumber = "46"
+                  offsetFromSymbolStart = "528">
+               </Location>
+               <Location
+                  uuid = "2E4FBC0C-4B16-4B16-B6A3-FB31D407D78E - c43f5d5742de95a"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(2) await resume partial function for REminders.RemindersListViewModel.load() async -&gt; ()"
+                  moduleName = "REminders"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/selma.suvalija/Documents/Projects/Learning/REminders/REminders/Views/Reminders/RemindersListView/RemindersListViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "46"
+                  endingLineNumber = "46"
+                  offsetFromSymbolStart = "44">
+               </Location>
+               <Location
+                  uuid = "2E4FBC0C-4B16-4B16-B6A3-FB31D407D78E - e900c0fb3021f449"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(3) suspend resume partial function for REminders.RemindersListViewModel.load() async -&gt; ()"
+                  moduleName = "REminders"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/selma.suvalija/Documents/Projects/Learning/REminders/REminders/Views/Reminders/RemindersListView/RemindersListViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "46"
+                  endingLineNumber = "46"
+                  offsetFromSymbolStart = "76">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "4DC1C425-720B-44B0-AC17-612625D73E85"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "REminders/Views/Reminders/RemindersListView/RemindersListViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "48"
+            endingLineNumber = "48"
+            landmarkName = "load()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "4DC1C425-720B-44B0-AC17-612625D73E85 - 7cfc92cad9c94681"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(1) suspend resume partial function for REminders.RemindersListViewModel.load() async -&gt; ()"
+                  moduleName = "REminders"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/selma.suvalija/Documents/Projects/Learning/REminders/REminders/Views/Reminders/RemindersListView/RemindersListViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "48"
+                  endingLineNumber = "48"
+                  offsetFromSymbolStart = "956">
+               </Location>
+               <Location
+                  uuid = "4DC1C425-720B-44B0-AC17-612625D73E85 - 7706f96a3e09bea"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(4) await resume partial function for REminders.RemindersListViewModel.load() async -&gt; ()"
+                  moduleName = "REminders"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/selma.suvalija/Documents/Projects/Learning/REminders/REminders/Views/Reminders/RemindersListView/RemindersListViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "48"
+                  endingLineNumber = "48"
+                  offsetFromSymbolStart = "44">
+               </Location>
+               <Location
+                  uuid = "4DC1C425-720B-44B0-AC17-612625D73E85 - 1b5536e9ae86a285"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(5) suspend resume partial function for REminders.RemindersListViewModel.load() async -&gt; ()"
+                  moduleName = "REminders"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/selma.suvalija/Documents/Projects/Learning/REminders/REminders/Views/Reminders/RemindersListView/RemindersListViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "48"
+                  endingLineNumber = "48"
+                  offsetFromSymbolStart = "76">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "ECFB4735-66F7-4E70-93E8-EED4AA7069A5"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "REminders/Views/Reminders/RemindersListView/RemindersListViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "52"
+            endingLineNumber = "52"
+            landmarkName = "load()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "ECFB4735-66F7-4E70-93E8-EED4AA7069A5 - 7cfc92cad9c94705"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(1) suspend resume partial function for REminders.RemindersListViewModel.load() async -&gt; ()"
+                  moduleName = "REminders"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/selma.suvalija/Documents/Projects/Learning/REminders/REminders/Views/Reminders/RemindersListView/RemindersListViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "52"
+                  endingLineNumber = "52"
+                  offsetFromSymbolStart = "1444">
+               </Location>
+               <Location
+                  uuid = "ECFB4735-66F7-4E70-93E8-EED4AA7069A5 - 3119146e127dfe6a"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(8) await resume partial function for REminders.RemindersListViewModel.load() async -&gt; ()"
+                  moduleName = "REminders"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/selma.suvalija/Documents/Projects/Learning/REminders/REminders/Views/Reminders/RemindersListView/RemindersListViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "52"
+                  endingLineNumber = "52"
+                  offsetFromSymbolStart = "44">
+               </Location>
+               <Location
+                  uuid = "ECFB4735-66F7-4E70-93E8-EED4AA7069A5 - 62d5ab77c540f1d"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(9) suspend resume partial function for REminders.RemindersListViewModel.load() async -&gt; ()"
+                  moduleName = "REminders"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/selma.suvalija/Documents/Projects/Learning/REminders/REminders/Views/Reminders/RemindersListView/RemindersListViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "52"
+                  endingLineNumber = "52"
+                  offsetFromSymbolStart = "76">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "C5A11F52-1D15-4D23-8FAC-E86290E81143"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "REminders/Views/Reminders/RemindersListView/RemindersListViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "54"
+            endingLineNumber = "54"
+            landmarkName = "load()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "C5A11F52-1D15-4D23-8FAC-E86290E81143 - 7cfc92cad9c94747"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(1) suspend resume partial function for REminders.RemindersListViewModel.load() async -&gt; ()"
+                  moduleName = "REminders"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/selma.suvalija/Documents/Projects/Learning/REminders/REminders/Views/Reminders/RemindersListView/RemindersListViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "54"
+                  endingLineNumber = "54"
+                  offsetFromSymbolStart = "1688">
+               </Location>
+               <Location
+                  uuid = "C5A11F52-1D15-4D23-8FAC-E86290E81143 - 30bbf0c23a4af302"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(10) await resume partial function for REminders.RemindersListViewModel.load() async -&gt; ()"
+                  moduleName = "REminders"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/selma.suvalija/Documents/Projects/Learning/REminders/REminders/Views/Reminders/RemindersListView/RemindersListViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "54"
+                  endingLineNumber = "54"
+                  offsetFromSymbolStart = "44">
+               </Location>
+               <Location
+                  uuid = "C5A11F52-1D15-4D23-8FAC-E86290E81143 - 6c13b261e05f5e31"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(11) suspend resume partial function for REminders.RemindersListViewModel.load() async -&gt; ()"
+                  moduleName = "REminders"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/selma.suvalija/Documents/Projects/Learning/REminders/REminders/Views/Reminders/RemindersListView/RemindersListViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "54"
+                  endingLineNumber = "54"
+                  offsetFromSymbolStart = "76">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "336FC8E3-F1A6-4DA0-8882-F808F1156097"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "REminders/Views/Reminders/RemindersListView/RemindersListViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "49"
+            endingLineNumber = "49"
+            landmarkName = "load()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "336FC8E3-F1A6-4DA0-8882-F808F1156097 - 7cfc92cad9c946c3"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(1) suspend resume partial function for REminders.RemindersListViewModel.load() async -&gt; ()"
+                  moduleName = "REminders"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/selma.suvalija/Documents/Projects/Learning/REminders/REminders/Views/Reminders/RemindersListView/RemindersListViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "50"
+                  endingLineNumber = "50"
+                  offsetFromSymbolStart = "1200">
+               </Location>
+               <Location
+                  uuid = "336FC8E3-F1A6-4DA0-8882-F808F1156097 - 3e6ce1aaeaa74daa"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(6) await resume partial function for REminders.RemindersListViewModel.load() async -&gt; ()"
+                  moduleName = "REminders"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/selma.suvalija/Documents/Projects/Learning/REminders/REminders/Views/Reminders/RemindersListView/RemindersListViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "50"
+                  endingLineNumber = "50"
+                  offsetFromSymbolStart = "44">
+               </Location>
+               <Location
+                  uuid = "336FC8E3-F1A6-4DA0-8882-F808F1156097 - 9599648605ff50d9"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(7) suspend resume partial function for REminders.RemindersListViewModel.load() async -&gt; ()"
+                  moduleName = "REminders"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/selma.suvalija/Documents/Projects/Learning/REminders/REminders/Views/Reminders/RemindersListView/RemindersListViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "50"
+                  endingLineNumber = "50"
+                  offsetFromSymbolStart = "76">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "BF22F8A7-8B2C-43D7-A712-1261606AB212"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "REminders/Views/Reminders/RemindersListView/RemindersListViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "41"
+            endingLineNumber = "41"
+            landmarkName = "load()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "BE00E7F7-8FDC-4CC7-9EF9-5225A338E9FF"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "REminders/Views/Reminders/RemindersListView/RemindersListViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "62"
+            endingLineNumber = "62"
+            landmarkName = "load()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "BE00E7F7-8FDC-4CC7-9EF9-5225A338E9FF - e900c0fb3021f6f7"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(3) suspend resume partial function for REminders.RemindersListViewModel.load() async -&gt; ()"
+                  moduleName = "REminders"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/selma.suvalija/Documents/Projects/Learning/REminders/REminders/Views/Reminders/RemindersListView/RemindersListViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "64"
+                  endingLineNumber = "64"
+                  offsetFromSymbolStart = "464">
+               </Location>
+               <Location
+                  uuid = "BE00E7F7-8FDC-4CC7-9EF9-5225A338E9FF - 1b5536e9ae86a0f5"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(5) suspend resume partial function for REminders.RemindersListViewModel.load() async -&gt; ()"
+                  moduleName = "REminders"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/selma.suvalija/Documents/Projects/Learning/REminders/REminders/Views/Reminders/RemindersListView/RemindersListViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "64"
+                  endingLineNumber = "64"
+                  offsetFromSymbolStart = "428">
+               </Location>
+               <Location
+                  uuid = "BE00E7F7-8FDC-4CC7-9EF9-5225A338E9FF - 9599648605ff52eb"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(7) suspend resume partial function for REminders.RemindersListViewModel.load() async -&gt; ()"
+                  moduleName = "REminders"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/selma.suvalija/Documents/Projects/Learning/REminders/REminders/Views/Reminders/RemindersListView/RemindersListViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "64"
+                  endingLineNumber = "64"
+                  offsetFromSymbolStart = "428">
+               </Location>
+               <Location
+                  uuid = "BE00E7F7-8FDC-4CC7-9EF9-5225A338E9FF - 62d5ab77c540ce9"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(9) suspend resume partial function for REminders.RemindersListViewModel.load() async -&gt; ()"
+                  moduleName = "REminders"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/selma.suvalija/Documents/Projects/Learning/REminders/REminders/Views/Reminders/RemindersListView/RemindersListViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "64"
+                  endingLineNumber = "64"
+                  offsetFromSymbolStart = "428">
+               </Location>
+               <Location
+                  uuid = "BE00E7F7-8FDC-4CC7-9EF9-5225A338E9FF - 6c13b261e05f5d87"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(11) suspend resume partial function for REminders.RemindersListViewModel.load() async -&gt; ()"
+                  moduleName = "REminders"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/selma.suvalija/Documents/Projects/Learning/REminders/REminders/Views/Reminders/RemindersListView/RemindersListViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "64"
+                  endingLineNumber = "64"
+                  offsetFromSymbolStart = "428">
+               </Location>
+               <Location
+                  uuid = "BE00E7F7-8FDC-4CC7-9EF9-5225A338E9FF - c3778b806eb40f85"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(13) suspend resume partial function for REminders.RemindersListViewModel.load() async -&gt; ()"
+                  moduleName = "REminders"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/selma.suvalija/Documents/Projects/Learning/REminders/REminders/Views/Reminders/RemindersListView/RemindersListViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "64"
+                  endingLineNumber = "64"
+                  offsetFromSymbolStart = "472">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "E57AAD4E-55EA-4796-BF6D-30C7358ED3EB"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "REminders/Views/Home/HomeView/HomeView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "40"
+            endingLineNumber = "40"
+            landmarkName = "body"
+            landmarkType = "24">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "6B2B41DA-0D5B-4A57-A52B-E7AFF58CC6C8"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "REminders/Views/Reminders/RemindersListView/ReminderListView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "94"
+            endingLineNumber = "94"
+            landmarkName = "body"
+            landmarkType = "24">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "BB03DE10-6E8F-4980-8920-279A1776C6DD"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "REminders/Views/Reminders/RemindersListView/ReminderListView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "100"
+            endingLineNumber = "100"
+            landmarkName = "loadData()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "F54FD51B-7F9A-484B-85E2-FC3169999EC3"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "REminders/Views/Reminders/RemindersListView/RemindersListViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "59"
+            endingLineNumber = "59"
+            landmarkName = "load()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "F54FD51B-7F9A-484B-85E2-FC3169999EC3 - e900c0fb3021f65a"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(3) suspend resume partial function for REminders.RemindersListViewModel.load() async -&gt; ()"
+                  moduleName = "REminders"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/selma.suvalija/Documents/Projects/Learning/REminders/REminders/Views/Reminders/RemindersListView/RemindersListViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "61"
+                  endingLineNumber = "61"
+                  offsetFromSymbolStart = "200">
+               </Location>
+               <Location
+                  uuid = "F54FD51B-7F9A-484B-85E2-FC3169999EC3 - 1b5536e9ae86a058"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(5) suspend resume partial function for REminders.RemindersListViewModel.load() async -&gt; ()"
+                  moduleName = "REminders"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/selma.suvalija/Documents/Projects/Learning/REminders/REminders/Views/Reminders/RemindersListView/RemindersListViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "61"
+                  endingLineNumber = "61"
+                  offsetFromSymbolStart = "164">
+               </Location>
+               <Location
+                  uuid = "F54FD51B-7F9A-484B-85E2-FC3169999EC3 - 9599648605ff5246"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(7) suspend resume partial function for REminders.RemindersListViewModel.load() async -&gt; ()"
+                  moduleName = "REminders"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/selma.suvalija/Documents/Projects/Learning/REminders/REminders/Views/Reminders/RemindersListView/RemindersListViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "61"
+                  endingLineNumber = "61"
+                  offsetFromSymbolStart = "164">
+               </Location>
+               <Location
+                  uuid = "F54FD51B-7F9A-484B-85E2-FC3169999EC3 - 62d5ab77c540c44"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(9) suspend resume partial function for REminders.RemindersListViewModel.load() async -&gt; ()"
+                  moduleName = "REminders"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/selma.suvalija/Documents/Projects/Learning/REminders/REminders/Views/Reminders/RemindersListView/RemindersListViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "61"
+                  endingLineNumber = "61"
+                  offsetFromSymbolStart = "164">
+               </Location>
+               <Location
+                  uuid = "F54FD51B-7F9A-484B-85E2-FC3169999EC3 - 6c13b261e05f5d2a"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(11) suspend resume partial function for REminders.RemindersListViewModel.load() async -&gt; ()"
+                  moduleName = "REminders"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/selma.suvalija/Documents/Projects/Learning/REminders/REminders/Views/Reminders/RemindersListView/RemindersListViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "61"
+                  endingLineNumber = "61"
+                  offsetFromSymbolStart = "164">
+               </Location>
+               <Location
+                  uuid = "F54FD51B-7F9A-484B-85E2-FC3169999EC3 - c3778b806eb40f28"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(13) suspend resume partial function for REminders.RemindersListViewModel.load() async -&gt; ()"
+                  moduleName = "REminders"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/selma.suvalija/Documents/Projects/Learning/REminders/REminders/Views/Reminders/RemindersListView/RemindersListViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "61"
+                  endingLineNumber = "61"
+                  offsetFromSymbolStart = "208">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "25CC2508-796B-4B54-A097-77676E5F7978"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "REminders/Views/Reminders/RemindersListView/RemindersListViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "42"
+            endingLineNumber = "42"
+            landmarkName = "load()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "D4CCE159-09B1-4EE9-A447-2707B25D9BEB"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "REminders/Views/Reminders/RemindersListView/RemindersListViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "56"
+            endingLineNumber = "56"
+            landmarkName = "load()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "D4CCE159-09B1-4EE9-A447-2707B25D9BEB - 7cfc92cad9c9443b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(1) suspend resume partial function for REminders.RemindersListViewModel.load() async -&gt; ()"
+                  moduleName = "REminders"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/selma.suvalija/Documents/Projects/Learning/REminders/REminders/Views/Reminders/RemindersListView/RemindersListViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "58"
+                  endingLineNumber = "58"
+                  offsetFromSymbolStart = "2672">
+               </Location>
+               <Location
+                  uuid = "D4CCE159-09B1-4EE9-A447-2707B25D9BEB - ebd1f07a7d01a660"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(12) await resume partial function for REminders.RemindersListViewModel.load() async -&gt; ()"
+                  moduleName = "REminders"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/selma.suvalija/Documents/Projects/Learning/REminders/REminders/Views/Reminders/RemindersListView/RemindersListViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "58"
+                  endingLineNumber = "58"
+                  offsetFromSymbolStart = "44">
+               </Location>
+               <Location
+                  uuid = "D4CCE159-09B1-4EE9-A447-2707B25D9BEB - c3778b806eb40f4f"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(13) suspend resume partial function for REminders.RemindersListViewModel.load() async -&gt; ()"
+                  moduleName = "REminders"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/selma.suvalija/Documents/Projects/Learning/REminders/REminders/Views/Reminders/RemindersListView/RemindersListViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "58"
+                  endingLineNumber = "58"
+                  offsetFromSymbolStart = "92">
+               </Location>
+            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>

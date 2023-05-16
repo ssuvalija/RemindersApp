@@ -48,7 +48,7 @@ struct ReminderCellView: View {
                 }
             
             VStack(alignment: .leading) {
-                Text(reminder.title ?? "")
+                Text(reminder.title)
                 
                 if let notes = reminder.notes, !notes.isEmpty {
                     Text(notes)

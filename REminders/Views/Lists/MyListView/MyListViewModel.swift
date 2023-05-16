@@ -41,10 +41,10 @@ class MyListViewModel: ObservableObject {
     }
     
     private func subscribeForDataUpdatesNotifications() {
-        dataRepository.notificationsPublisher.sink { shouldUpdate in
+        dataRepository.notificationsPublisher?.sink { [weak self] shouldUpdate in
             if shouldUpdate {
-                Task {
-                    await self.getLists()
+                Task { [weak self] in
+                    await self?.getLists()
                 }
             }
         }.store(in: &cancellables)

@@ -9,7 +9,7 @@ import Foundation
 import Combine
 
 protocol MyListDataSource: AnyObject {
-    var notificationsPublisher: PassthroughSubject<Bool, Never> { get }
+    var notificationsPublisher: PassthroughSubject<Bool, Never>? { get }
     func getAll() async throws -> [MyListEntity]
     func getById(_ id: UUID) async throws -> MyListEntity?
     func delete(_ id: UUID) async throws -> ()

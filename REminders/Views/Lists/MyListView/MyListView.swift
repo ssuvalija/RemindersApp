@@ -9,12 +9,12 @@ import SwiftUI
 import Factory
 
 struct MyListView: View {
+    @EnvironmentObject private var coordinator: Coordinator<RemindersRouter>
     @Environment(\.colorScheme) var colorScheme
-    @ObservedObject var viewModel: MyListViewModel = Container.shared.myListViewModel.resolve()
+    @StateObject var viewModel: MyListViewModel = MyListViewModel()
     
     var body: some View {
-        NavigationStack {
-            let _ = Self._printChanges()
+        VStack {
             switch viewModel.state {
             case .loading:
                 ProgressView()
@@ -24,24 +24,24 @@ struct MyListView: View {
                 Text(message)
             case .loaded(let myLists):
                 ForEach(myLists) { myList in
-                    NavigationLink(value: myList) {
-                        VStack {
-                            MyListCellView(myList: myList)
-                                .frame(maxWidth: .infinity, alignment: .leading)
-                                .padding([.leading], 10)
-                                .font(.title3)
-                                .foregroundColor(colorScheme == .dark ? Color.offWhite : Color.darkGray)
-                            Divider()
-                        }
-                    }.listRowBackground(colorScheme == .dark ? Color.darkGray : Color.offWhite)
+                    VStack {
+                        MyListCellView(myList: myList)
+                            .frame(maxWidth: .infinity, alignment: .leading)
+                            .contentShape(Rectangle())
+                            .padding([.leading], 10)
+                            .font(.title3)
+                            .foregroundColor(colorScheme == .dark ? Color.offWhite : Color.darkGray)
+                            .onTapGesture {
+                                coordinator.show(.listDetails(myList))
+                            }
+                        Divider()
+                    }
+                    .listRowBackground(colorScheme == .dark ? Color.darkGray : Color.offWhite)
                 }
                 .scrollContentBackground(.hidden)
-                .navigationDestination(for: MyListData.self) { myList in
-                    MyListDetailView(myList: myList)
-                        .navigationTitle(myList.name)
-                }
             }
-        }.onAppear {
+        }
+        .onAppear {
             Task {
                 await viewModel.getLists()
             }

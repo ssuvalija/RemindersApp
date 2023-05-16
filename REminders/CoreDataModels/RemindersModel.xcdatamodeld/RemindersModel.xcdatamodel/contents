@@ -1,23 +1,10 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="21512" systemVersion="22A400" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
-    <entity name="MyList" representedClassName="MyList" syncable="YES">
-        <attribute name="color" attributeType="Transformable" valueTransformerName="UIColorTransformer" customClassName="UIColor"/>
-        <attribute name="name" attributeType="String"/>
-        <relationship name="reminders" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="Reminder" inverseName="list" inverseEntity="Reminder"/>
-    </entity>
     <entity name="MyListEntity" representedClassName="MyListEntity" syncable="YES">
         <attribute name="color" attributeType="Transformable" valueTransformerName="UIColorTransformer" customClassName="UIColor"/>
         <attribute name="id" attributeType="UUID" usesScalarValueType="NO"/>
         <attribute name="name" attributeType="String"/>
         <relationship name="reminders" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="ReminderEntity" inverseName="list" inverseEntity="ReminderEntity"/>
-    </entity>
-    <entity name="Reminder" representedClassName="Reminder" syncable="YES" codeGenerationType="class">
-        <attribute name="isCompleted" attributeType="Boolean" defaultValueString="NO" usesScalarValueType="YES"/>
-        <attribute name="notes" optional="YES" attributeType="String"/>
-        <attribute name="reminderDate" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
-        <attribute name="reminderTime" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
-        <attribute name="title" attributeType="String"/>
-        <relationship name="list" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="MyList" inverseName="reminders" inverseEntity="MyList"/>
     </entity>
     <entity name="ReminderEntity" representedClassName="ReminderEntity" syncable="YES" codeGenerationType="class">
         <attribute name="id" attributeType="UUID" defaultValueString="0CF044A3-333C-4B22-8FEB-F68B004B6C96" usesScalarValueType="NO"/>

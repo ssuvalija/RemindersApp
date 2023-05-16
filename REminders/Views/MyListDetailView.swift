@@ -19,7 +19,7 @@ struct MyListDetailView: View {
     var body: some View {
         VStack {
             //Display list of reminders
-            ReminderListView(myList: myList)
+            ReminderListView(myList: myList, type: .listReminders)
             
             HStack {
                 Image(systemName: "plus.circle.fill")
@@ -30,7 +30,9 @@ struct MyListDetailView: View {
             .foregroundColor(.blue)
             .frame(maxWidth: .infinity, alignment: .leading)
             .padding()
-        }.alert("New Reminder", isPresented: $openAddReminder) {
+        }
+        .navigationTitle(myList.name)
+        .alert("New Reminder", isPresented: $openAddReminder) {
             AddReminderView(myList: myList)
         }
     }

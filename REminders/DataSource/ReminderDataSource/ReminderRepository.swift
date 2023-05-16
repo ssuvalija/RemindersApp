@@ -9,11 +9,15 @@ import Foundation
 import Combine
 
 protocol ReminderRepository {
-    var notificationsPublisher: PassthroughSubject<Bool, Never> { get }
+    var notificationsPublisher: PassthroughSubject<Bool, Never>? { get }
     func getReminders() async -> Result<[ReminderData], DataSourceError>
     func getRemindersByListId(_ id: UUID) async -> Result<[ReminderData], DataSourceError>
     func getReminder(id: UUID) async -> Result<ReminderData?, DataSourceError>
     func deleteReminder(_ id: UUID) async -> Result<Bool, DataSourceError>
     func createReminder(_ reminder: ReminderData) async -> Result<Bool, DataSourceError>
     func updateReminder(_ reminder: ReminderData) async -> Result<Bool, DataSourceError>
+    func getRemindersForToday() async -> Result<[ReminderData], DataSourceError>
+    func getCompletedReminders() async -> Result<[ReminderData], DataSourceError>
+    func getScheduledReminders() async -> Result<[ReminderData], DataSourceError>
+    func getBySearchTerm(_ searchTerm: String) async -> Result<[ReminderData], DataSourceError>
 }

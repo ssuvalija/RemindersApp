@@ -9,7 +9,7 @@ import Foundation
 import Combine
 
 protocol MyListRepository {
-    var notificationsPublisher: PassthroughSubject<Bool, Never> { get }
+    var notificationsPublisher: PassthroughSubject<Bool, Never>? { get }
     func getLists() async -> Result<[MyListData], DataSourceError>
     func getList(id: UUID) async -> Result<MyListData?, DataSourceError>
     func deleteList(_ id: UUID) async -> Result<Bool, DataSourceError>

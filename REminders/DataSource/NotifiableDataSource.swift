@@ -11,20 +11,20 @@ import CoreData
 
 protocol NotifiableDataSource {
     
-    var notificationsPublisher: PassthroughSubject<Bool, Never> { get }
-    func shouldRefreshListener(notification: Notification)
+    var notificationsPublisher: PassthroughSubject<Bool, Never>? { get }
+    func shouldRefreshListener<T: NSManagedObject>(notification: Notification, type: T.Type)
 }
 
 extension NotifiableDataSource {
-    func shouldRefreshListener(notification: Notification) {
+    func shouldRefreshListener<T: NSManagedObject>(notification: Notification, type: T.Type) {
         let inserted = notification.insertedObjects
         let deleted = notification.deletedObjects
         let updated = notification.updatedObjects
         
-        var shouldRefreshMyLists = checkForDataChanges(myType: MyListEntity.self, list: inserted)  || checkForDataChanges(myType: MyListEntity.self, list: updated) || checkForDataChanges(myType: MyListEntity.self, list: deleted)
+        let shouldRefreshMyLists = checkForDataChanges(myType: type, list: inserted)  || checkForDataChanges(myType: type, list: updated) || checkForDataChanges(myType: type, list: deleted)
         
         if shouldRefreshMyLists {
-            notificationsPublisher.send(true)
+            notificationsPublisher?.send(true)
         }
         
     }
